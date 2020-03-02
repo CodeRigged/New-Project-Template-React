@@ -1,0 +1,22 @@
+@import "./partials/extentions";
+@import "./partials/mixins";
+@import "./partials/variables";
+@import "./partials//keyframes";
+@import "./button.scss";
+@import "./utils.scss";
+
+html {
+  @extend %reset;
+}
+
+.landing {
+  @include flex(row, center, center);
+  @include widthAndHeight(100vw, 100vh);
+  background: linear-gradient(
+    180deg,
+    rgba(113, 205, 212, 1) 50%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  font: bold 64px $arial-font;
+  color: $dark-font;
+}

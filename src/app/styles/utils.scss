@@ -1,0 +1,59 @@
+@import "./partials/mixins";
+@import "./partials/variables";
+.construction {
+  @include widthAndHeight(100vw, 100vh);
+  @include flex(column, center, center);
+  background-image: url("../assets//images/bricks.png");
+  &:before {
+    @include positioning(0, 0, 0, 0);
+    background-color: #cb4153cb;
+    content: " ";
+  }
+  @include text(3em $arial-font, white);
+  text-align: center;
+  white-space: pre-line;
+  .container {
+    z-index: 1;
+    display: flex;
+  }
+  .hammer {
+    fill: rgb(69, 141, 184);
+    margin: -40px -15px 0 0;
+    animation: rotate 1s linear infinite alternate-reverse;
+  }
+  .cog {
+    margin: 0 0px 0 10px;
+    animation: rotate 1s linear infinite alternate-reverse;
+    fill: rgb(134, 134, 134);
+  }
+  .truck {
+    animation: move 5s linear infinite alternate-reverse,
+      rotate-axis 10s steps(1, end) infinite forwards;
+    fill: rgb(57, 180, 73);
+  }
+}
+@keyframes rotate {
+  from {
+    -webkit-transform: rotate(-45deg);
+  }
+  to {
+    -webkit-transform: rotate(45deg);
+  }
+}
+@keyframes rotate-axis {
+  0% {
+  }
+  50% {
+    -webkit-transform: rotateY(-180deg);
+  }
+  100% {
+  }
+}
+@keyframes move {
+  from {
+    margin-left: 50%;
+  }
+  to {
+    margin-left: -50%;
+  }
+}
