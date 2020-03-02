@@ -7,7 +7,7 @@
 
 ## Used Technologies / Dependencies
 
-[React](https://reactjs.org/), [react-router-dom](https://www.npmjs.com/package/)[react-router-dom](https://www.npmjs.com/package/react-router-dom) & [react-icons](https://www.npmjs.com/package/react-icons) <br/>
+[React](https://reactjs.org/), [react-router-dom](https://www.npmjs.com/package/), [react-router-dom](https://www.npmjs.com/package/react-router-dom) & [react-icons](https://www.npmjs.com/package/react-icons) <br/>
 [Redux](https://www.npmjs.com/package/redux) <br/>
 [SASS/SCSS](https://www.npmjs.com/package/node-sass)<br/>
 [lodash](https://www.npmjs.com/package/lodash)<br/>
