@@ -1,6 +1,6 @@
-<h3 align="center">
+<h1 align="center">
   New Project Template
-</h3>
+</h1>
 <p align="center">
   You can use this template however you want
 </p>
@@ -46,7 +46,7 @@ Add or Remove any un-/wanted dependencies.
 
 ## About
 
-This is a project template I like and, if you are just getting started with coding, might help you. Feel free to use/change it. I might change it a little in the future. <br/>
+This is a project template I like and, if you are just getting started with coding, might help you. Feel free to use/change it. I might change it a little in the future. <br/><br/>
 You may also make suggestions what one could add/should remove.
 
 **Have Fun!**
